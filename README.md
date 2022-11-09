@@ -14,7 +14,7 @@ This demonstrates a 3D Sphere with navigation to control in different angles. T
 <br/>
 
 ## Demo
-[Link for the basic pie-chart](https://mc-form-sphere.herokuapp.com/)
+[Link for 3D | Sphere](https://mc-form-sphere.herokuapp.com/)
 <br/>
 
 ![simple-demo](public/images/sphere-g-v1.gif)
