@@ -1,8 +1,13 @@
 // 1st: add the required packages
-const express = require('express'); // express.js
-const { join } = require('path');
+import express from 'express'; // express.js
+import { join } from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Express middleware
 app.use(express.json());
